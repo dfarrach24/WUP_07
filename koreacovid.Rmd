@@ -46,9 +46,13 @@ The results provided show 25 females died out of the 1831. Among the males, 44 d
 ## We create two bar charts - one based on frequency and the other on percent, use ggplot commands to do this
 
 `
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
+```
   
-
+Among the individuals that died of COVID, the plot shows that males are most likely to die than females. 
 
 
 
