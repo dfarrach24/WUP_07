@@ -30,6 +30,8 @@ $H_0$: Dying is not independent of sex.
 $H_A$ : Men and women die at different rates, dying is dependent on sex. 
 
 
+Based on the variables, the helper file being used is CAT~CAT. 
+
 Table of patients:
 ```{r}
 
@@ -38,6 +40,8 @@ Table of patients:
 with(kRdata, table(Sex, result))
 
 ```
+
+The results provided show 25 females died out of the 1831. Among the males, 44 died out of the 1411. Based on the data, males have a higher death rate. 
 
 ## We create two bar charts - one based on frequency and the other on percent, use ggplot commands to do this
 
