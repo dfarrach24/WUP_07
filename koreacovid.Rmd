@@ -60,6 +60,14 @@ Among the individuals that died of COVID, the plot shows that males are most lik
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+Twice the amount of males died compared to females. 
+
 
 ## Inferential results 
 
