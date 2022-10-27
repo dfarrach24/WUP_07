@@ -30,7 +30,7 @@ $H_0$: Dying is not independent of sex.
 $H_A$ : Men and women die at different rates, dying is dependent on sex. 
 
 
-Based on the variables, the helper file being used is CAT~CAT. 
+Based on the variables, the helper file being used is CAT~CAT because both the response variable and explanatory variables are categorical. 
 
 Table of patients:
 ```{r}
