@@ -30,6 +30,8 @@ $H_0$: Dying is independent of sex.
 $H_A$ : Men and women die at different rates, dying is dependent on sex. 
 
 
+### Methods
+
 Based on the variables, the helper file being used is CAT~CAT because both the response variable and explanatory variables are categorical. 
 
 Table of patients:
@@ -66,7 +68,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-Twice the amount of males died compared to females. 
+Almost twice as many the amount of males died compared to females. 
 
 
 ## Inferential results 
@@ -77,7 +79,9 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The Chi-squared test shows the P-Value = 0.0012 which is less than 0.05 which means we reject the null hypothesis. In the Fisher Test the p-value is 0.0009 which means the odds are that males in Korea are 2.3 times more likely to die than females. 
+The Chi-squared test shows the P-Value = 0.0012 which is less than 0.05 which means we reject the null hypothesis. 
+
+In the Fisher Test the p-value is 0.0009 which means the odds are that males in Korea are 2.3 times more likely to die than females. 
 
 
 
