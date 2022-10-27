@@ -25,7 +25,7 @@ state of a patient must be died or alive - we adjust that as well
 # Question 1 - Is dying independent of sex
 
 
-$H_0$: Dying is not independent of sex.
+$H_0$: Dying is independent of sex.
 
 $H_A$ : Men and women die at different rates, dying is dependent on sex. 
 
